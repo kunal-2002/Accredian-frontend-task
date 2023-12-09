@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+  
+.navbar {
+    background-color: whitesmoke;
+    padding: 5px;
+    text-align: center;
+}
+  
+.logo {
+    max-width: 35%;
+    height: auto;
+}
+  
+@media (max-width: 768px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+}
+  
