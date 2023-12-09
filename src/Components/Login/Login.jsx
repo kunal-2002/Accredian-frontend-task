@@ -28,7 +28,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("13.228.225.19:3000/login", {
+      const response = await fetch("54.254.162.138/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

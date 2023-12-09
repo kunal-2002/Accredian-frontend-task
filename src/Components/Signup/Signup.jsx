@@ -39,7 +39,7 @@ const Signup = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("13.228.225.19:3000/signup", {
+      const response = await fetch("54.254.162.138/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
